@@ -207,7 +207,7 @@ func (p *Phishlet) LoadFromFile(site string, path string) error {
 			"- move `username` and `password` into new `credentials` section\n" +
 			"- add `type` field to `username` and `password` with value 'post' or 'json'\n" +
 			"- change `min_ver` to at least `2.2.0`\n" +
-			"you can find the phishlet 2.2.0 file format documentation here: https://github.com/kgretzky/evilginx2/wiki/Phishlet-File-Format-(2.2.0)")
+			"you can find the phishlet 2.2.0 file format documentation here: https://github.com/amazinzay/evilginx2/wiki/Phishlet-File-Format-(2.2.0)")
 	}
 
 	fp := ConfigPhishlet{}

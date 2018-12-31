@@ -1,17 +1,17 @@
 <p align="center">
-  <img alt="Evilginx2 Logo" src="https://raw.githubusercontent.com/kgretzky/evilginx2/master/media/img/evilginx2-logo-512.png" height="160" />
+  <img alt="Evilginx2 Logo" src="https://raw.githubusercontent.com/amazinzay/evilginx2/master/media/img/evilginx2-logo-512.png" height="160" />
   <p align="center">
-    <img alt="Evilginx2 Title" src="https://raw.githubusercontent.com/kgretzky/evilginx2/master/media/img/evilginx2-title-black-512.png" height="60" />
+    <img alt="Evilginx2 Title" src="https://raw.githubusercontent.com/amazinzay/evilginx2/master/media/img/evilginx2-title-black-512.png" height="60" />
   </p>
 </p>
 
 **evilginx2** is a man-in-the-middle attack framework used for phishing login credentials along with session cookies, which in turn allows to bypass 2-factor authentication protection.
 
-This tool is a successor to [Evilginx](https://github.com/kgretzky/evilginx), released in 2017, which used a custom version of nginx HTTP server to provide man-in-the-middle functionality to act as a proxy between a browser and phished website.
+This tool is a successor to [Evilginx](https://github.com/amazinzay/evilginx), released in 2017, which used a custom version of nginx HTTP server to provide man-in-the-middle functionality to act as a proxy between a browser and phished website.
 Present version is fully written in GO as a standalone application, which implements its own HTTP and DNS server, making it extremely easy to set up and use.
 
 <p align="center">
-  <img alt="Screenshot" src="https://raw.githubusercontent.com/kgretzky/evilginx2/master/media/img/screen.png" height="320" />
+  <img alt="Screenshot" src="https://raw.githubusercontent.com/amazinzay/evilginx2/master/media/img/screen.png" height="320" />
 </p>
 
 ## Disclaimer
@@ -42,7 +42,7 @@ Please thank the following contributors for devoting their precious time to deli
 
 ## Installation
 
-You can either use a [precompiled binary package](https://github.com/kgretzky/evilginx2/releases) for your architecture or you can compile **evilginx2** from source.
+You can either use a [precompiled binary package](https://github.com/amazinzay/evilginx2/releases) for your architecture or you can compile **evilginx2** from source.
 
 You will need an external server where you'll host your **evilginx2** installation. I personally recommend Digital Ocean and if you follow my referral link, you will [get an extra $10 to spend on servers for free](https://m.do.co/c/50338abc7ffe).
 
@@ -64,8 +64,8 @@ Now you should be ready to install **evilginx2**. Follow these instructions:
 
 ```
 sudo apt-get install git make
-go get -u github.com/kgretzky/evilginx2
-cd $GOPATH/src/github.com/kgretzky/evilginx2
+go get -u github.com/amazinzay/evilginx2
+cd $GOPATH/src/github.com/amazinzay/evilginx2
 make
 ```
 
@@ -97,7 +97,7 @@ Phishlets are loaded within the container at `/app/phishlets`, which can be moun
 
 #### Installing from precompiled binary packages
 
-Grab the package you want from [here](https://github.com/kgretzky/evilginx2/releases) and drop it on your box. Then do:
+Grab the package you want from [here](https://github.com/amazinzay/evilginx2/releases) and drop it on your box. Then do:
 ```
 unzip <package_name>.zip -d <package_name>
 cd <package_name>
